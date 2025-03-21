@@ -6,7 +6,6 @@
 - [বেসিক প্রশ্ন](basic-questions.md)
 - [ইন্টারমিডিয়েট প্রশ্ন](intermediate-questions.md)
 - [অ্যাডভান্সড প্রশ্ন](advanced-questions.md)
-- [কোড উদাহরণ](code-examples/)
 
 ## কন্ট্রিবিউট করার নির্দেশিকা
 আপনি চাইলে এই প্রোজেক্টে কন্ট্রিবিউট করতে পারেন। কন্ট্রিবিউট করার আগে [CONTRIBUTING.md](CONTRIBUTING.md) ফাইলটি পড়ুন।
