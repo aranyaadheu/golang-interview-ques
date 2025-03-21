@@ -1,2 +1,15 @@
-# Golang-Interview-Questions-Bangla
-A collection of Golang interview questions and answers in Bangla for job preparation.
+# Golang Interview Questions and Answers in Bangla
+
+এই রিপোজিটরিতে গো (Golang) ল্যাঙ্গুয়েজের ইন্টারভিউ প্রশ্ন এবং উত্তর বাংলায় সংকলন করা হয়েছে। এটি জব ইন্টারভিউ প্রস্তুতির জন্য একটি সহায়ক রিসোর্স।
+
+## কন্টেন্ট সূচি
+- [বেসিক প্রশ্ন](basic-questions.md)
+- [ইন্টারমিডিয়েট প্রশ্ন](intermediate-questions.md)
+- [অ্যাডভান্সড প্রশ্ন](advanced-questions.md)
+- [কোড উদাহরণ](code-examples/)
+
+## কন্ট্রিবিউট করার নির্দেশিকা
+আপনি চাইলে এই প্রোজেক্টে কন্ট্রিবিউট করতে পারেন। কন্ট্রিবিউট করার আগে [CONTRIBUTING.md](CONTRIBUTING.md) ফাইলটি পড়ুন।
+
+## লাইসেন্স
+এই প্রোজেক্টটি [MIT লাইসেন্স](LICENSE) এর অধীনে প্রকাশিত হয়েছে।
