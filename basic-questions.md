@@ -3,16 +3,16 @@
 
 ## কন্টেন্ট সূচি
 
-- [১। What is scope?](##what-is-scope)
-- [২। What is block?](##what-is-block)
-- [৩। What is standard or named function?](##what-is-standard-or-named-function)
-- [৪। What is anonymous function?](##what-is-anonymous-function)
-- [৫। What is expression?](##what-is-expression)
-- [৬। What is statement?](##what-is-statement)
-- [৭। What is pointer?](##what-is-pointer)
+- [১। What is scope?](#what-is-scope)
+- [২। What is block?](#what-is-block)
+- [৩। What is standard or named function?](#what-is-standard-or-named-function)
+- [৪। What is anonymous function?](#what-is-anonymous-function)
+- [৫। What is expression?](#what-is-expression)
+- [৬। What is statement?](#what-is-statement)
+- [৭। What is pointer?](#what-is-pointer)
 - [৮। What is pass by value vs pass by reference?](##what-is-pass-by-value-vs-pass-by-reference)
-- [৯। What is package?](##what-is-package)
-- [১০। What is import?](##what-is-import)
+- [৯। What is package?](#what-is-package)
+- [১০। What is import?](#what-is-import)
 
 ## ১। What is scope?
 
