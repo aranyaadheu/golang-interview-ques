@@ -3,16 +3,62 @@
 
 ## কন্টেন্ট সূচি
 
-- [১। What is scope?](#১-what-is-scope)
-- [২। What is block?](#২-what-is-block)
-- [৩। What is standard or named function?](#৩-what-is-standard-or-named-function)
-- [৪। What is anonymous function?](#৪-what-is-anonymous-function)
-- [৫। What is expression?](#৫-what-is-expression)
-- [৬। What is statement?](#৬-what-is-statement)
-- [৭। What is pointer?](#৭-what-is-pointer)
-- [৮। What is pass by value vs pass by reference?](#৮-what-is-pass-by-value-vs-pass-by-reference)
-- [৯। What is package?](#৯-what-is-package)
-- [১০। What is import?](#১০-what-is-import)
+- [Golang Interview Questions and Answers (BASIC)](#golang-interview-questions-and-answers-basic)
+  - [কন্টেন্ট সূচি](#কন্টেন্ট-সূচি)
+  - [১। What is scope?](#১-what-is-scope)
+    - [উদাহরণ](#উদাহরণ)
+  - [২। What is block?](#২-what-is-block)
+    - [উদাহরণ: (Nested Block Scope)](#উদাহরণ-nested-block-scope)
+  - [৩। How many types of scopes are there available on Golang?](#৩-how-many-types-of-scopes-are-there-available-on-golang)
+  - [৪। What is the standard or named function?](#৪-what-is-the-standard-or-named-function)
+    - [উদাহরণ](#উদাহরণ-1)
+  - [৫। What is anonymous function?](#৫-what-is-anonymous-function)
+    - [উদাহরণ](#উদাহরণ-2)
+  - [৬। What is expression?](#৬-what-is-expression)
+    - [উদাহরণ](#উদাহরণ-3)
+  - [৭। What is function expression?](#৭-what-is-function-expression)
+    - [উদাহরণ](#উদাহরণ-4)
+  - [৮। What is immediately invoked function expression (IIFE)?](#৮-what-is-immediately-invoked-function-expression-iife)
+    - [উদাহরণ](#উদাহরণ-5)
+  - [৯। Difference between arguments and parameters](#৯-difference-between-arguments-and-parameters)
+    - [উদাহরণ](#উদাহরণ-6)
+  - [১০। What is first-class function or higher-order function?](#১০-what-is-first-class-function-or-higher-order-function)
+    - [উদাহরণ](#উদাহরণ-7)
+  - [১১। Difference between first-order function and higher-order function](#১১-difference-between-first-order-function-and-higher-order-function)
+  - [১২। Difference between first order logic and higher order logic](#১২-difference-between-first-order-logic-and-higher-order-logic)
+  - [১৩। What is callback function?](#১৩-what-is-callback-function)
+    - [উদাহরণ](#উদাহরণ-8)
+    - [১৫। What is the first-class citizen?](#১৫-what-is-the-first-class-citizen)
+    - [১৬। What is init function?](#১৬-what-is-init-function)
+      - [উদাহরণ](#উদাহরণ-9)
+    - [১৭। Difference between compile time and run time](#১৭-difference-between-compile-time-and-run-time)
+      - [**কম্পাইল টাইম (Compile Time):**](#কম্পাইল-টাইম-compile-time)
+      - [**রান টাইম (Run Time):**](#রান-টাইম-run-time)
+    - [১৮। What is escape analysis?](#১৮-what-is-escape-analysis)
+      - [উদাহরণ](#উদাহরণ-10)
+    - [১৯। Describe 2 phases of running a Go program](#১৯-describe-2-phases-of-running-a-go-program)
+      - [উদাহরণ](#উদাহরণ-11)
+    - [২০। What is closure in Go?](#২০-what-is-closure-in-go)
+      - [উদাহরণ](#উদাহরণ-12)
+    - [২১। What is struct in Go?](#২১-what-is-struct-in-go)
+      - [উদাহরণ](#উদাহরণ-13)
+    - [২২। What is an instance?](#২২-what-is-an-instance)
+      - [উদাহরণ](#উদাহরণ-14)
+    - [২৩। What are member variables?](#২৩-what-are-member-variables)
+      - [উদাহরণ](#উদাহরণ-15)
+    - [২৪। What is instantiation?](#২৪-what-is-instantiation)
+      - [উদাহরণ](#উদাহরণ-16)
+    - [২৫। What is the receiver function?](#২৫-what-is-the-receiver-function)
+      - [উদাহরণ](#উদাহরণ-17)
+    - [২৬। Difference between expression and statement](#২৬-difference-between-expression-and-statement)
+  - [পার্থক্য সংক্ষেপে](#পার্থক্য-সংক্ষেপে)
+      - [উদাহরণ](#উদাহরণ-18)
+    - [২৭। what is pointer? And difference between pass by value vs pass by reference](#২৭-what-is-pointer-and-difference-between-pass-by-value-vs-pass-by-reference)
+      - [উদাহরণ](#উদাহরণ-19)
+    - [Difference between pass by value vs pass by reference](#difference-between-pass-by-value-vs-pass-by-reference)
+      - [উদাহরণ](#উদাহরণ-20)
+      - [উদাহরণ](#উদাহরণ-21)
+      - [পার্থক্য সংক্ষেপে](#পার্থক্য-সংক্ষেপে-1)
 
 ## ১। What is scope?
 
@@ -187,7 +233,7 @@ func main() {
 
 ---
 
-## ১০। Difference between arguments and parameters
+## ৯। Difference between arguments and parameters
 
 **Parameter:** প্যারামিটার হল ফাংশন ডিফাইন করার সময় যে ভেরিয়েবলগুলো ব্যবহার করা হয়। এগুলো মূলত ফাংশনের জন্য একটা প্লেসহোল্ডার হিসেবে কাজ করে।
 **Argument:** আর্গুমেন্ট হল ফাংশন কল করার সময় যে ডাটাগুলি পাস করা হয়। পাস করা ডাটাগুলি প্যারামিটারে অ্যাসাইন হয়ে ফাংশনের কাজ চালায়।
@@ -204,7 +250,7 @@ result := add(3, 5)  // 3 এবং 5 হল আর্গুমেন্ট
 
 ---
 
-## ১১। What is first-class function or higher-order function?
+## ১০। What is first-class function or higher-order function?
 
 Higher-order function বলতে এমন ফাংশনকে বোঝায় যা অন্য ভেরিয়েবলের মতোই ব্যবহার করা যায়। অন্য কথায় ফাংশনটি একটি ভেরিয়েবলে স্টোর করা যায়, যে ফাংশন প্যারামিটারের ইনপুট হিসেবে আরেকটা ফানশনকে রিসিভ করতে পারে এবং অন্য ফাংশন থেকে রিটার্ন করা যায়।
 
@@ -247,7 +293,7 @@ func main() {
 
 ---
 
-## ১২। Difference between first-order function and higher-order function
+## ১১। Difference between first-order function and higher-order function
 
 **First-Order Function:**
 ফার্স্ট অর্ডার ফাংশন হলো এমন ফাংশন যা অন্য কোনো ফাংশনকে প্যারামিটার হিসেবে গ্রহণ করে না এবং অন্য কোনো ফাংশনকে রিটার্নও করে না। এটি শুধুমাত্র নরমাল ডেটা (যেমন: সংখ্যা, স্ট্রিং, অ্যারে ইত্যাদি) নিয়ে কাজ করে।
@@ -257,7 +303,7 @@ func main() {
 
 ---
 
-## ১৩। Difference between first order logic and higher order logic
+## ১২। Difference between first order logic and higher order logic
 
 **First Order Logic:**
 First-Order Logic হলো এমন একটি লজিক সিস্টেম যা শুধুমাত্র Object, Property, Relation নিয়ে কাজ করে।
@@ -271,7 +317,7 @@ Higher-Order Logic এমন একটি লজিক সিস্টেম য
 
 **বিঃদ্রঃ** GO প্রোগ্রামিং-এ, ফার্স্ট-অর্ডার লজিক হলো সাধারণ ফাংশন যেগুলো শুধু ডেটা নিয়ে কাজ করে। আর হায়ার-অর্ডার লজিক হলো ফাংশন যেগুলো অন্য ফাংশন নিয়ে কাজ করে।
 
-## ১৪। What is callback function?
+## ১৩। What is callback function?
 
 Callback Function হলো এমন একটি ফাংশন যা অন্য একটি ফাংশনের ভিতরে প্যারামিটার হিসেবে পাঠানো হয় এবং প্রথম ফাংশনটি যখন প্রয়োজন হয়, তখন এই কলব্যাক ফাংশনটিকে কল করে। অন্য কথায়, কলব্যাক ফাংশন হলো এমন একটি ফাংশন যা অন্য ফাংশনের দ্বারা "কল করার" জন্য পাঠানো হয়।
 
