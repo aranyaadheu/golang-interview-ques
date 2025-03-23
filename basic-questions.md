@@ -10,7 +10,7 @@
 - [৫। What is expression?](#what-is-expression)
 - [৬। What is statement?](#what-is-statement)
 - [৭। What is pointer?](#what-is-pointer)
-- [৮। What is pass by value vs pass by reference?](##what-is-pass-by-value-vs-pass-by-reference)
+- [৮। What is pass by value vs pass by reference?](#what-is-pass-by-value-vs-pass-by-reference)
 - [৯। What is package?](#what-is-package)
 - [১০। What is import?](#what-is-import)
 
