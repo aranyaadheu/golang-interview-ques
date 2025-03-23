@@ -27,34 +27,34 @@
   - [১২। Difference between first order logic and higher order logic](#১২-difference-between-first-order-logic-and-higher-order-logic)
   - [১৩। What is callback function?](#১৩-what-is-callback-function)
     - [উদাহরণ](#উদাহরণ-8)
-    - [১৫। What is the first-class citizen?](#১৫-what-is-the-first-class-citizen)
-    - [১৬। What is init function?](#১৬-what-is-init-function)
+    - [১৪। What is the first-class citizen?](#১৪-what-is-the-first-class-citizen)
+    - [১৫। What is init function?](#১৫-what-is-init-function)
       - [উদাহরণ](#উদাহরণ-9)
-    - [১৭। Difference between compile time and run time](#১৭-difference-between-compile-time-and-run-time)
+    - [১৬। Difference between compile time and run time](#১৬-difference-between-compile-time-and-run-time)
       - [**কম্পাইল টাইম (Compile Time):**](#কম্পাইল-টাইম-compile-time)
       - [**রান টাইম (Run Time):**](#রান-টাইম-run-time)
-    - [১৮। What is escape analysis?](#১৮-what-is-escape-analysis)
+    - [১৭। What is escape analysis?](#১৭-what-is-escape-analysis)
       - [উদাহরণ](#উদাহরণ-10)
-    - [১৯। Describe 2 phases of running a Go program](#১৯-describe-2-phases-of-running-a-go-program)
+    - [১৮। Describe 2 phases of running a Go program](#১৮-describe-2-phases-of-running-a-go-program)
       - [উদাহরণ](#উদাহরণ-11)
-    - [২০। What is closure in Go?](#২০-what-is-closure-in-go)
+    - [১৯। What is closure in Go?](#১৯-what-is-closure-in-go)
       - [উদাহরণ](#উদাহরণ-12)
-    - [২১। What is struct in Go?](#২১-what-is-struct-in-go)
+    - [২০। What is struct in Go?](#২০-what-is-struct-in-go)
       - [উদাহরণ](#উদাহরণ-13)
-    - [২২। What is an instance?](#২২-what-is-an-instance)
+    - [২১। What is an instance?](#২১-what-is-an-instance)
       - [উদাহরণ](#উদাহরণ-14)
-    - [২৩। What are member variables?](#২৩-what-are-member-variables)
+    - [২২। What are member variables?](#২২-what-are-member-variables)
       - [উদাহরণ](#উদাহরণ-15)
-    - [২৪। What is instantiation?](#২৪-what-is-instantiation)
+    - [২৩। What is instantiation?](#২৩-what-is-instantiation)
       - [উদাহরণ](#উদাহরণ-16)
-    - [২৫। What is the receiver function?](#২৫-what-is-the-receiver-function)
+    - [২৪। What is the receiver function?](#২৪-what-is-the-receiver-function)
       - [উদাহরণ](#উদাহরণ-17)
-    - [২৬। Difference between expression and statement](#২৬-difference-between-expression-and-statement)
+    - [২৫। Difference between expression and statement](#২৫-difference-between-expression-and-statement)
   - [পার্থক্য সংক্ষেপে](#পার্থক্য-সংক্ষেপে)
       - [উদাহরণ](#উদাহরণ-18)
-    - [২৭। what is pointer? And difference between pass by value vs pass by reference](#২৭-what-is-pointer-and-difference-between-pass-by-value-vs-pass-by-reference)
+    - [২৬। what is pointer? And difference between pass by value vs pass by reference](#২৬-what-is-pointer-and-difference-between-pass-by-value-vs-pass-by-reference)
       - [উদাহরণ](#উদাহরণ-19)
-    - [Difference between pass by value vs pass by reference](#difference-between-pass-by-value-vs-pass-by-reference)
+    - [২৭। Difference between pass by value vs pass by reference](#২৭-difference-between-pass-by-value-vs-pass-by-reference)
       - [উদাহরণ](#উদাহরণ-20)
       - [উদাহরণ](#উদাহরণ-21)
       - [পার্থক্য সংক্ষেপে](#পার্থক্য-সংক্ষেপে-1)
@@ -352,13 +352,13 @@ func main() {
 
 ---
 
-### ১৫। What is the first-class citizen?
+### ১৪। What is the first-class citizen?
 
 First-Class Citizen বলতে বোঝায় যা প্রোগ্রামের মধ্যে অন্য যেকোনো ডেটা টাইপের মতোই ব্যবহার করা যায়। GO-তে ফাংশন হলো ফার্স্ট ক্লাস সিটিজেন, কারণ ফাংশনকে ভেরিয়েবলে স্টোর করা, প্যারামিটার হিসেবে পাঠানো, অথবা অন্য ফাংশন থেকে রিটার্ন করা যায়।
 
 ---
 
-### ১৬। What is init function?
+### ১৫। What is init function?
 
 **init ফাংশন** হলো একটি বিশেষ ফাংশন যা কোনো প্যাকেজ বা ফাইল লোড হওয়ার সময় অটোমেটিকভাবে একবার কল হয়। এটি প্রোগ্রামের প্রাথমিক সেটআপ বা ইনিশিয়ালাইজেশন কাজে ব্যবহৃত হয়, যেমন: ভেরিয়েবল ইনিশিয়ালাইজ করা, ডাটাবেস কানেকশন তৈরি করা, কনফিগারেশন লোড করা ইত্যাদি।
 
@@ -394,7 +394,7 @@ Main function
 
 ---
 
-### ১৭। Difference between compile time and run time
+### ১৬। Difference between compile time and run time
 
 #### **কম্পাইল টাইম (Compile Time):**
 
@@ -414,7 +414,7 @@ Main function
 
 ---
 
-### ১৮। What is escape analysis?
+### ১৭। What is escape analysis?
 
 Escape Analysis হলো গো (Go) প্রোগ্রামিং-এর একটি অপটিমাইজেশন টুল বা প্রক্রিয়া, যা কম্পাইলার দ্বারা ব্যবহৃত হয়। এটি ডিসাইড করে যে কোনো ভেরিয়েবল বা ডেটা ফাংশনের বাইরে ব্যবহার হতে পারে কিনা । এই বিশ্লেষণের উপর ভিত্তি করে কম্পাইলার ডিসাইড করে যে ভেরিয়েবলটি মেমোরির স্ট্যাক (Stack) নাকি হিপ (Heap) - এ store করা হবে।
 
@@ -442,7 +442,7 @@ fmt.Println(*p)
 
 ---
 
-### ১৯। Describe 2 phases of running a Go program
+### ১৮। Describe 2 phases of running a Go program
 
 **১। In the Compilation Phase:** এই Phase এ GO কম্পাইলার সোর্স কোডকে মেশিন কোডে (Executable Binary Code) রূপান্তর করে ও সিনট্যাক্স এবং টাইপ চেকিং করে।
 
@@ -457,7 +457,7 @@ go build main.go  # Compilation Phase (creates an executable)
 
 ---
 
-### ২০। What is closure in Go?
+### ১৯। What is closure in Go?
 
 ক্লোজার(closure) হলো এমন একটি ফাংশন যা তার নিজের স্কোপের বাইরের ভেরিয়েবলগুলোকে "মনে রাখে" এমনকি বাইরের ফাংশনের execution শেষ হবার পরেও এবং সেগুলোকে ব্যবহার করতে পারে।
 উদাহরণ:
@@ -490,7 +490,7 @@ func main() {
 
 ---
 
-### ২১। What is struct in Go?
+### ২০। What is struct in Go?
 
 **Struct** হলো গো (Go) প্রোগ্রামিং-এর একটি গুরুত্বপূর্ণ ডেটা স্ট্রাকচার। এটি একটি কাস্টম ডেটা টাইপ যা বিভিন্ন ধরনের ডেটা ফিল্ড (ভেরিয়েবল) একত্রে গ্রুপ করে রাখতে ব্যবহৃত হয়। স্ট্রাক্ট ব্যবহার করে আমরা একটি একক ইউনিটে বিভিন্ন ধরনের ডেটা (যেমন: স্ট্রিং, ইন্টিজার, বুলিয়ান ইত্যাদি) সংরক্ষণ করতে পারি।
 
@@ -516,7 +516,7 @@ func main() {
 
 ---
 
-### ২২। What is an instance?
+### ২১। What is an instance?
 
 **Instance** হলো যখন আমরা একটি struct বা কোনো কাস্টম ডেটা টাইপের জন্য একটি ভেরিয়েবল তৈরি করি, তখন সেই ভেরিয়েবলটিকে ওই ডেটা টাইপের একটি ইনস্ট্যান্স বলা হয়।
 
@@ -554,7 +554,7 @@ p1 এবং p2 হলো Person স্ট্রাক্টের দুটি 
 
 ---
 
-### ২৩। What are member variables?
+### ২২। What are member variables?
 
 Go প্রোগ্রামিং ভাষায় মেম্বার ভেরিয়েবল হল সেই সকল ভেরিয়েবল যা একটি Struct এর ভিতরে Define করা হয়। এগুলিকে আমরা 'ফিল্ড' (Fields) হিসেবেও উল্লেখ করি।
 স্ট্রাক্টের মেম্বার ভেরিয়েবলগুলি যেকোনো ডাটা টাইপের হতে পারে, যেমন:
@@ -588,7 +588,7 @@ type কর্মচারী struct {
 
 ---
 
-### ২৪। What is instantiation?
+### ২৩। What is instantiation?
 
 **Instantiation** হলো একটি ডেটা টাইপের জন্য একটি ইনস্ট্যান্স তৈরি করার পদ্ধতি।
 
@@ -626,7 +626,7 @@ p1 এবং p2 হলো Person স্ট্রাক্টের দুটি 
 
 ---
 
-### ২৫। What is the receiver function?
+### ২৪। What is the receiver function?
 
 Go ভাষায় "receiver function" হল একটি মেথড যেটি একটি নির্দিষ্ট টাইপের সাথে যুক্ত থাকে। এই মেথডগুলি একটি স্ট্রাক্ট (struct) বা অন্য কোনো টাইপের উপর অপারেশন সম্পাদন করতে ব্যবহৃত হয়। রিসিভার ফাংশন ডিফাইন করার সময় ফাংশনের নামের আগে একটি রিসিভার প্যারামিটার যোগ করা হয়, যা নির্দেশ করে যে এই মেথডটি কোন টাইপের সাথে যুক্ত।
 
@@ -654,7 +654,7 @@ func main() {
 
 ---
 
-### ২৬। Difference between expression and statement
+### ২৫। Difference between expression and statement
 
 **Expression (এক্সপ্রেশন):**
 Expression হল এমন একটি কোড অংশ যা একটি মান (value) তৈরি করে। এটি একটি ভ্যারিয়েবল, কনস্ট্যান্ট, অপারেটর, বা ফাংশন কলের সমন্বয়ে গঠিত হতে পারে। প্রতিটি এক্সপ্রেশন একটি নির্দিষ্ট মানে রূপান্তরিত হয়, যেমন: সংখ্যা, স্ট্রিং, বুলিয়ান ইত্যাদি।
@@ -692,7 +692,7 @@ func main() {
 
 ---
 
-### ২৭। what is pointer? And difference between pass by value vs pass by reference
+### ২৬। what is pointer? And difference between pass by value vs pass by reference
 
 **Pointer:**
 Pointer হলো একটি ভেরিয়েবল যা অন্য একটি ভেরিয়েবলের মেমোরি অ্যাড্রেস স্টোর করে। সহজ কথায়, পয়েন্টার আমাদের বলে দেয় যে, কোনো ডেটা মেমরির কোন স্থানে আছে, এবং আমরা সেই স্থানে গিয়ে ডেটার সাথে কাজ করতে পারি।
@@ -717,7 +717,7 @@ func main() {
 
 **বিঃদ্রঃ** এখানে p হল পয়েন্টার এবং \*p দিয়ে আমরা x এর মান অ্যাক্সেস করতে পারি।
 
-### Difference between pass by value vs pass by reference
+### ২৭। Difference between pass by value vs pass by reference
 
 **Pass by value:**
 যখন আমরা একটি ফাংশনে কোনো আর্গুমেন্ট পাস বাই ভ্যালু হিসেবে পাঠাই, তখন সেই আর্গুমেন্টের একটি কপি তৈরি হয় এবং ফাংশন সেই কপি নিয়ে কাজ করে। ফাংশনের ভিতরে কপির মান পরিবর্তন হলেও মূল ভেরিয়েবলের মান অপরিবর্তিত থাকে।
