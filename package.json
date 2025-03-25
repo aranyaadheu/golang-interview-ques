@@ -1,0 +1,12 @@
+{
+    "name": "golang-interview-questions-and-answers-bangla",
+    "version": "1.0.0",
+    "description": "Golang Interview Questions and Answers in Bangla",
+    "main": "index.html",
+    "scripts": {
+        "serve": "docsify serve"
+    },
+    "dependencies": {
+        "docsify-cli": "^4.4.4"
+    }
+}
