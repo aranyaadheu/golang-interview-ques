@@ -1,10 +1,10 @@
-<!-- <p align="center"><img alt="Golang Interview Questions and Answers Bangla" src="img/Banner.png"></p> -->
+<p align="center"><img alt="Golang Interview Questions and Answers Bangla" src="img/Banner.png"></p>
 
 <h3 align="center"><b>Golang Interview Questions and Answers in Bangla</b></h3>
 
-<!-- <br>
+<br>
 
-> **Follow [@](https://x.com/) on Twitter to learn more about it**. -->
+> **Follow [@](https://x.com/SkSajib0) on Twitter to learn more about it**.
 
 <br>
 
