@@ -7,32 +7,33 @@
 | ১   | [What is scope?](#what-is-scope)                                                                                                                            | [উদাহরণ](#উদাহরণ)                                                     |
 | ২   | [What is block?](#what-is-block)                                                                                                                            | [উদাহরণ: (Nested Block Scope)](#উদাহরণ-nested-block-scope)            |
 | ৩   | [How many types of scopes are there in Golang?](#how-many-types-of-scopes-are-there-available-on-golang)                                                    |                                                                     |
-| ৪   | [What is the standard or named function?](#৪-what-is-the-standard-or-named-function)                                                                        | [উদাহরণ](#উদাহরণ-1)                                                   |
-| ৫   | [What is anonymous function?](#৫-what-is-anonymous-function)                                                                                                | [উদাহরণ](#উদাহরণ-2)                                                   |
-| ৬   | [What is expression?](#৬-what-is-expression)                                                                                                                | [উদাহরণ](#উদাহরণ-3)                                                   |
-| ৭   | [What is function expression?](#৭-what-is-function-expression)                                                                                              | [উদাহরণ](#উদাহরণ-4)                                                   |
-| ৮   | [What is immediately invoked function expression (IIFE)?](#৮-what-is-immediately-invoked-function-expression-iife)                                          | [উদাহরণ](#উদাহরণ-5)                                                   |
-| ৯   | [Difference between arguments and parameters](#৯-difference-between-arguments-and-parameters)                                                               | [উদাহরণ](#উদাহরণ-6)                                                   |
-| ১০  | [What is first-class function or higher-order function?](#১০-what-is-first-class-function-or-higher-order-function)                                         | [উদাহরণ](#উদাহরণ-7)                                                   |
-| ১১  | [Difference between first-order function and higher-order function](#১১-difference-between-first-order-function-and-higher-order-function)                  |                                                                     |
-| ১২  | [Difference between first-order logic and higher-order logic](#১২-difference-between-first-order-logic-and-higher-order-logic)                              |                                                                     |
-| ১৩  | [What is callback function?](#১৩-what-is-callback-function)                                                                                                 | [উদাহরণ](#উদাহরণ-8)                                                   |
-| ১৪  | [What is the first-class citizen?](#১৪-what-is-the-first-class-citizen)                                                                                     |                                                                     |
-| ১৫  | [What is init function?](#১৫-what-is-init-function)                                                                                                         | [উদাহরণ](#উদাহরণ-9)                                                   |
-| ১৬  | [Difference between compile time and run time](#১৬-difference-between-compile-time-and-run-time)                                                            | [কম্পাইল টাইম](#কম্পাইল-টাইম-compile-time), [রান টাইম](#রান-টাইম-run-time)    |
-| ১৭  | [What is escape analysis?](#১৭-what-is-escape-analysis)                                                                                                     | [উদাহরণ](#উদাহরণ-10)                                                  |
-| ১৮  | [Describe 2 phases of running a Go program](#১৮-describe-2-phases-of-running-a-go-program)                                                                  | [উদাহরণ](#উদাহরণ-11)                                                  |
-| ১৯  | [What is closure in Go?](#১৯-what-is-closure-in-go)                                                                                                         | [উদাহরণ](#উদাহরণ-12)                                                  |
-| ২০  | [What is struct in Go?](#২০-what-is-struct-in-go)                                                                                                           | [উদাহরণ](#উদাহরণ-13)                                                  |
-| ২১  | [What is an instance?](#২১-what-is-an-instance)                                                                                                             | [উদাহরণ](#উদাহরণ-14)                                                  |
-| ২২  | [What are member variables?](#২২-what-are-member-variables)                                                                                                 | [উদাহরণ](#উদাহরণ-15)                                                  |
-| ২৩  | [What is instantiation?](#২৩-what-is-instantiation)                                                                                                         | [উদাহরণ](#উদাহরণ-16)                                                  |
-| ২৪  | [What is the receiver function?](#২৪-what-is-the-receiver-function)                                                                                         | [উদাহরণ](#উদাহরণ-17)                                                  |
-| ২৫  | [Difference between expression and statement](#২৫-difference-between-expression-and-statement)                                                              | [উদাহরণ](#উদাহরণ-18), [পার্থক্য সংক্ষেপে](#পার্থক্য-সংক্ষেপে)                       |
-| ২৬  | [What is pointer? And difference between pass by value vs pass by reference](#২৬-what-is-pointer-and-difference-between-pass-by-value-vs-pass-by-reference) | [উদাহরণ](#উদাহরণ-19)                                                  |
-| ২৭  | [Difference between pass by value vs pass by reference](#২৭-difference-between-pass-by-value-vs-pass-by-reference)                                          | [উদাহরণ](#উদাহরণ-20), [উদাহরণ](#উদাহরণ-21), [পার্থক্য সংক্ষেপে](#পার্থক্য-সংক্ষেপে-1) |
-| ২৮  | [Describe internal memory of a Go program](#২৮-describe-internal-memory-of-a-go-program)                                                                    | [উদাহরণ](#উদাহরণ-22), [উদাহরণ](#উদাহরণ-23)                              |
+| ৪   | [What is the standard or named function?](#what-is-the-standard-or-named-function)                                                                          | [উদাহরণ](#উদাহরণ-1)                                                   |
+| ৫   | [What is anonymous function?](#what-is-anonymous-function)                                                                                                  | [উদাহরণ](#উদাহরণ-2)                                                   |
+| ৬   | [What is expression?](#what-is-expression)                                                                                                                  | [উদাহরণ](#উদাহরণ-3)                                                   |
+| ৭   | [What is function expression?](#what-is-function-expression)                                                                                                | [উদাহরণ](#উদাহরণ-4)                                                   |
+| ৮   | [What is immediately invoked function expression (IIFE)?](#৮what-is-immediately-invoked-function-expression-iife)                                           | [উদাহরণ](#উদাহরণ-5)                                                   |
+| ৯   | [Difference between arguments and parameters](#difference-between-arguments-and-parameters)                                                                 | [উদাহরণ](#উদাহরণ-6)                                                   |
+| ১০  | [What is first-class function or higher-order function?](#what-is-first-class-function-or-higher-order-function)                                         | [উদাহরণ](#উদাহরণ-7)                                                   |
+| ১১  | [Difference between first-order function and higher-order function](#difference-between-first-order-function-and-higher-order-function)                  |                                                                     |
+| ১২  | [Difference between first-order logic and higher-order logic](#difference-between-first-order-logic-and-higher-order-logic)                              |                                                                     |
+| ১৩  | [What is callback function?](#what-is-callback-function)                                                                                                 | [উদাহরণ](#উদাহরণ-8)                                                   |
+| ১৪  | [What is the first-class citizen?](#what-is-the-first-class-citizen)                                                                                     |                                                                     |
+| ১৫  | [What is init function?](#what-is-init-function)                                                                                                         | [উদাহরণ](#উদাহরণ-9)                                                   |
+| ১৬  | [Difference between compile time and run time](#difference-between-compile-time-and-run-time)                                                            | [কম্পাইল টাইম](#কম্পাইল-টাইম-compile-time), [রান টাইম](#রান-টাইম-run-time)    |
+| ১৭  | [What is escape analysis?](#what-is-escape-analysis)                                                                                                     | [উদাহরণ](#উদাহরণ-10)                                                  |
+| ১৮  | [Describe 2 phases of running a Go program](#describe-2-phases-of-running-a-go-program)                                                                  | [উদাহরণ](#উদাহরণ-11)                                                  |
+| ১৯  | [What is closure in Go?](#what-is-closure-in-go)                                                                                                         | [উদাহরণ](#উদাহরণ-12)                                                  |
+| ২০  | [What is struct in Go?](#what-is-struct-in-go)                                                                                                           | [উদাহরণ](#উদাহরণ-13)                                                  |
+| ২১  | [What is an instance?](#what-is-an-instance)                                                                                                             | [উদাহরণ](#উদাহরণ-14)                                                  |
+| ২২  | [What are member variables?](#what-are-member-variables)                                                                                                 | [উদাহরণ](#উদাহরণ-15)                                                  |
+| ২৩  | [What is instantiation?](#what-is-instantiation)                                                                                                         | [উদাহরণ](#উদাহরণ-16)                                                  |
+| ২৪  | [What is the receiver function?](#what-is-the-receiver-function)                                                                                         | [উদাহরণ](#উদাহরণ-17)                                                  |
+| ২৫  | [Difference between expression and statement](#difference-between-expression-and-statement)                                                              | [উদাহরণ](#উদাহরণ-18), [পার্থক্য সংক্ষেপে](#পার্থক্য-সংক্ষেপে)                       |
+| ২৬  | [What is pointer? And difference between pass by value vs pass by reference](#what-is-pointer-and-difference-between-pass-by-value-vs-pass-by-reference) | [উদাহরণ](#উদাহরণ-19)                                                  |
+| ২৭  | [Difference between pass by value vs pass by reference](#difference-between-pass-by-value-vs-pass-by-reference)                                          | [উদাহরণ](#উদাহরণ-20), [উদাহরণ](#উদাহরণ-21), [পার্থক্য সংক্ষেপে](#পার্থক্য-সংক্ষেপে-1) |
+| ২৮  | [Describe internal memory of a Go program](#describe-internal-memory-of-a-go-program)                                                                    | [উদাহরণ](#উদাহরণ-22), [উদাহরণ](#উদাহরণ-23)                              |
 
+---
 
 <h2 id="what-is-scope">১। What is scope?</h2>
 
@@ -127,6 +128,7 @@ func main() {
 ```
 
 ---
+
 <h2 id="what-is-anonymous-function">৫। What is anonymous function?</h2>
 
 Anonymous Function বলতে এমন ফাংশনকে বোঝায় যার কোনো নাম থাকে না। এই ফাংশনগুলো সাধারণত তখনই ব্যবহার করা হয় যখন আমাদের ফাংশনটি শুধুমাত্র একটি নির্দিষ্ট জায়গায় ব্যবহার করার প্রয়োজন হয়, এবং এটিকে পুনরায় ব্যবহার করার দরকার হয় না।
