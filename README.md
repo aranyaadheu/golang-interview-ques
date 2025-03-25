@@ -4,7 +4,7 @@
 
 <br>
 
-> **Follow [@](https://x.com/SkSajib0) on Twitter to learn more about it**.
+> **Follow [@sksajib0](https://x.com/SkSajib0) on Twitter to learn more about it**.
 
 <br>
 
