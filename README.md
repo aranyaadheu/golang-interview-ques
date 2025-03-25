@@ -1,4 +1,22 @@
-# Golang Interview Questions and Answers in Bangla
+<!-- <p align="center"><img alt="Golang Interview Questions and Answers Bangla" src="img/Banner.png"></p> -->
+
+<h3 align="center"><b>Golang Interview Questions and Answers in Bangla</b></h3>
+
+<!-- <br>
+
+> **Follow [@](https://x.com/) on Twitter to learn more about it**. -->
+
+<br>
+
+This is a complete ongoing **Golang Interview QnA** guideline that is growing for the Bangladeshi community.
+
+<br>
+
+<h3 align="center"><b>Make sure to :star: <a href="https://github.com/dynamiclance/golang-interview-questions-and-answers-bangla">this</a> repository if you liked it!</b> </h3>
+
+<br>
+
+<h3 align="center">This repo is hosted at <a href="https://dynamiclance.github.io/golang-interview-questions-and-answers-bangla/">dynamiclance.github.io/golang-interview-questions-and-answers-bangla</a></h3> <br>
 
 এই রিপোজিটরিতে গো (Golang) ল্যাঙ্গুয়েজের ইন্টারভিউ প্রশ্ন এবং উত্তর বাংলায় সংকলন করা হয়েছে। এটি জব ইন্টারভিউ প্রস্তুতির জন্য একটি সহায়ক রিসোর্স।
 
