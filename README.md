@@ -1,4 +1,4 @@
-<p align="center"><img alt="Golang Interview Questions and Answers Bangla" src="https://github.com/dynamiclance/golang-interview-questions-and-answers-bangla/blob/db23749ae4bfb9ffc99008f6b089911a30ee43ae/img/banner.png"></p>
+<p align="center"><img alt="Golang Interview Questions and Answers Bangla" src="https://raw.githubusercontent.com/dynamiclance/golang-interview-questions-and-answers-bangla/db23749ae4bfb9ffc99008f6b089911a30ee43ae/img/banner.png"></p>
 
 <h3 align="center"><b>Golang Interview Questions and Answers in Bangla</b></h3>
 
