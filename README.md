@@ -4,7 +4,7 @@
 
 <br>
 
-> **Best Golang Community Ever**
+> **🌟Best Golang Community Ever🌟**
 
 We have an active and growing community on Facebook where you can connect with like-minded individuals, ask questions, share ideas, and stay updated on the latest developments. Whether you're looking for support, collaboration, or just want to chat, this is the place for you!
 
