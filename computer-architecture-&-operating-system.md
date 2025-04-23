@@ -77,7 +77,7 @@
 <p align="center">Picture Credit: Chatgpt</p>
 
 **কোড লেখার প্রক্রিয়াটা ছিল এমন:**
-<p align="center"><img alt="punch card programming process" src="https://github.com/dynamiclance/golang-interview-questions-and-answers-bangla/blob/main/img/punch-card-programming-process.png"></p>
+<p align="center"><img alt="punch card programming process" src="https://raw.githubusercontent.com/dynamiclance/golang-interview-questions-and-answers-bangla/refs/heads/main/img/punch-card-programming-process.png"></p>
 
 <p align="center">Picture Credit: Cloude ai</p>
 
