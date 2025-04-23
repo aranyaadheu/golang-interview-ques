@@ -1,4 +1,4 @@
-## 🖥️ Class 32 - Computer Architecture & History  
+## 🖥️ Class 32 - Computer Architecture & History 
 *(Reference: [YouTube Lecture By Go With Habib](https://youtu.be/vzrpgfCgRmU?si=Ah-EgF8qXlK9qovb))*
 
 <!-- **🔍 Key Topics:**
@@ -164,14 +164,6 @@ PC = 100 → CPU যাবে 100 নম্বর অ্যাড্রেসে
 তারপর PC = 104 → “ADD B” নিবে
 
 তারপর PC = 108 → “PRINT” নিবে
-
-### উদাহরণ:
-```go
-RAM এ আছে এমন ৩টা লাইন:
-100: LOAD A  
-104: ADD B  
-108: PRINT
-```
 
 ***এইভাবে PC বা Pointing Register CPU কে পথ দেখিয়ে RAM থেকে একটার পর একটা নির্দেশনা বের করে আনে।***
 
