@@ -72,7 +72,7 @@
 **পাঞ্চ কার্ডঃ**  
 পাঞ্চ কার্ড ছিল মোটা কাগজের কার্ড, সাধারণত ৭.৩৮ ইঞ্চি লম্বা আর ৩.২৫ ইঞ্চি চওড়া। এই কার্ডে ৮০টা কলাম থাকতো, আর প্রতি কলামে ১২টা সারি। প্রতিটা কলামে ছোট ছোট গর্ত পাঞ্চ করে নির্দিষ্ট অক্ষর বা নির্দেশনা লেখা হতো। এই গর্তগুলোই কম্পিউটার পড়তো। ধরেন, আপনি একটা প্রোগ্রাম লিখতে চান যেটা দুইটা সংখ্যা যোগ করবে। তাহলে এই নির্দেশনাগুলোকে প্রথমে একটা কোডিং ভাষায় (যেমন ফরট্রান বা কোবল) লিখতে হতো।
 
-<p align="center"><img alt="punch card example" src="https://github.com/dynamiclance/golang-interview-questions-and-answers-bangla/blob/main/img/punch-card-example.png"></p>
+<p align="center"><img alt="punch card example" src="https://raw.githubusercontent.com/dynamiclance/golang-interview-questions-and-answers-bangla/refs/heads/main/img/punch-card-example.png"></p>
 
 <p align="center">Picture Credit: Chatgpt</p>
 
