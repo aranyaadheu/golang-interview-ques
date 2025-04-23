@@ -4,7 +4,7 @@
 
 <br>
 
-> **🌟Best Golang Community Ever🌟**
+>**🌟Best Golang Community Ever🌟**
 
 We have an active and growing community on Facebook where you can connect with like-minded individuals, ask questions, share ideas, and stay updated on the latest developments. Whether you're looking for support, collaboration, or just want to chat, this is the place for you!
 
@@ -28,6 +28,7 @@ This is a complete ongoing **Golang Interview QnA** guideline that is growing fo
 - [বেসিক প্রশ্ন](basic-questions.md)
 - [ইন্টারমিডিয়েট প্রশ্ন](intermediate-questions.md)
 - [অ্যাডভান্সড প্রশ্ন](advanced-questions.md)
+- [কম্পিউটার আর্কিটেকচার এন্ড অপারেটিং সিস্টেম](computer-architecture-&-operating-system.md)
 
 ## কন্ট্রিবিউট করার নির্দেশিকা
 আপনি চাইলে এই প্রোজেক্টে কন্ট্রিবিউট করতে পারেন। কন্ট্রিবিউট করার আগে [CONTRIBUTING.md](CONTRIBUTING.md) ফাইলটি পড়ুন।
