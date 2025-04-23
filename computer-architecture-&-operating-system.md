@@ -1,7 +1,7 @@
-# 🖥️ Class 32 - Computer Architecture & History  
+## 🖥️ Class 32 - Computer Architecture & History  
 *(Reference: [YouTube Lecture By Go With Habib](https://youtu.be/vzrpgfCgRmU?si=Ah-EgF8qXlK9qovb))*
 
-**🔍 Key Topics:**
+<!-- **🔍 Key Topics:**
 1. **Evolution Timeline**  
    - Abacus → Analytical Engine → Modern CPUs
    - Diffrent Generations of Computers
@@ -24,7 +24,7 @@
 - Charles Babbage = "Father of Computers"  
 - 1st Programmer: Ada Lovelace (1843)  
 
-📌 *Pro Tip:* Watch the lecture for vintage computer visuals! 
+📌 *Pro Tip:* Watch the lecture for vintage computer visuals!  -->
 
 
 ## 📚 কন্টেন্ট সূচি
