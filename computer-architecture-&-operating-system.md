@@ -63,7 +63,8 @@
 **৫. আউটপুট**  
 চূড়ান্ত ফলাফল (Output) প্রিন্ট করা যেত বা নতুন পাঞ্চ কার্ডে সংরক্ষণ করা যেত, যাতে পরে ব্যবহার করা যায়।
 
-<p align="center"><img alt="how analytical engine work" src="https://raw.githubusercontent.com/dynamiclance/golang-interview-questions-and-answers-bangla/img/how analytical engine work.png"></p>
+<p align="center"><img alt="how analytical engine work" src="https://github.com/dynamiclance/golang-interview-questions-and-answers-bangla/blob/main/img/how-analytical-engine-work.png"></p>
+
 <p align="center">Picture Credit: Chatgpt</p>
 
 ## 2. Punch Card কি এবং এটি দিয়ে কিভাবে প্রোগ্রাম লিখতো? 
