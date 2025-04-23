@@ -98,7 +98,7 @@
 
 অ্যানালিটিক্যাল ইঞ্জিনের যুগে RAM বলে আলাদা কোনো জিনিস ছিল না, কিন্তু "স্টোর" নামে একটা মেমরি সেকশন ছিল যেটা আজকের RAM-এর মতোই কাজ করত! পুরো প্রক্রিয়াটা এমন ছিল:
 
-<p align="center"><img alt="how data transfer from punch card to ram" src="https://github.com/dynamiclance/golang-interview-questions-and-answers-bangla/blob/main/img/how-data-tranfer-from-punch-card-to-ram.png"></p>
+<p align="center"><img alt="how data transfer from punch card to ram" src="https://raw.githubusercontent.com/dynamiclance/golang-interview-questions-and-answers-bangla/refs/heads/main/img/how-data-tranfer-from-punch-card-to-ram.png"></p>
 
 <p align="center">Picture Credit: Chatgpt</p>
 
