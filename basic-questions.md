@@ -347,31 +347,51 @@ First-Class Citizen বলতে বোঝায় যা প্রোগ্র
 #### উদাহরণ
 
 ```go
-// package.go
+
+## Folder Structure:
+
+sk/
+├── go.mod
+├── main.go
+└── mypackage/
+    └── package.go
+
+
+
+// go.mod
+module sk
+
+go 1.24.2
+
+
+// mypackage/package.go
 package mypackage
+
 import "fmt"
 
 func init() {
-   fmt.Println("Init from mypackage")
+	fmt.Println("Init from mypackage")
 }
 
 // main.go
 package main
+
 import (
-   "fmt"
-   "mypackage"
+	"fmt"
+	"sk/mypackage"
 )
 
 func main() {
-   fmt.Println("Main function")
+	fmt.Println("Main function")
 }
 ```
 
-**আউটপুট:**
-
 ```
+✅ Expected Output:
+
 Init from mypackage
 Main function
+
 ```
 
 ---
