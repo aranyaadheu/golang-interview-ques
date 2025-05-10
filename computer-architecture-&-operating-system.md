@@ -194,6 +194,6 @@ PC = 100 → CPU যাবে 100 নম্বর অ্যাড্রেসে
 
 ## 7. What is Process?
 
-একটি প্রোগ্রামের লাইন ১ থেকে শেষ পর্যন্ত এক্সিকিউশন Ram এর একটা অংশ যেমনঃ (Code Segment,Data Segment,Stack,Heap) এবং CPU এর মধ্যে থাকা Processing unit, Register Set একসাথে মিলে যে কাজ সম্পাদন করে, ঐ কাজের প্রক্রিয়াকে Process বলে।
+একটি প্রোগ্রামের লাইন ১ থেকে শেষ পর্যন্ত এক্সিকিউশন হওয়ার জন্য Ram এর একটা অংশ যেমনঃ (Code Segment,Data Segment,Stack,Heap) এবং CPU এর মধ্যে থাকা Processing unit, Register Set একসাথে মিলে যে কাজ সম্পাদন করে, ঐ কাজের প্রক্রিয়াকে Process বলে।
 
 নোটঃ একটা Physical Computer এর যা যা আছে (Ram,CPU) প্রসেসেরও তা তা আছে তাই প্রসেসরকে Virtual Computer বলা হয়।
