@@ -197,3 +197,8 @@ PC = 100 → CPU যাবে 100 নম্বর অ্যাড্রেসে
 একটি প্রোগ্রামের লাইন ১ থেকে শেষ পর্যন্ত এক্সিকিউশন হওয়ার জন্য Ram এর একটা অংশ যেমনঃ (Code Segment,Data Segment,Stack,Heap) এবং CPU এর মধ্যে থাকা Processing unit, Register Set একসাথে মিলে যে কাজ সম্পাদন করে, ঐ কাজের প্রক্রিয়াকে Process বলে।
 
 নোটঃ একটা Physical Computer এর যা যা আছে (Ram,CPU) প্রসেসেরও তা তা আছে তাই প্রসেসরকে Virtual Computer বলা হয়।
+
+
+<p align="center"><img alt="how data transfer from punch card to ram" src="https://raw.githubusercontent.com/dynamiclance/golang-interview-questions-and-answers-bangla/refs/heads/main/img/what-is-process.png"></p>
+
+<p align="center">Picture Credit: Napkin AI</p>
